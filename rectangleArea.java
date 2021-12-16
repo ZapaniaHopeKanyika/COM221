@@ -1,7 +1,12 @@
-public class myJavaFile{
-  public static void main(String [] args){
-    System.out.println("The Area is shown here");
-System.out.println("Enter breadth of the rectangle: ");
+import java.util.Scanner;
+
+public class rectangleArea{
+	public static void main(String[] args) {
+		//Creatin a scanner object
+		Scanner input = new Scanner(System.in);
+		  System.out.println("The Area is shown here");
+          //Prompts the user to enter breadth of the rectangle
+		   System.out.println("Enter breadth of the rectangle: ");
 		     double breadth = input.nextDouble();
 		     //Prompts the user to enter lenght of the rectangle
 		     System.out.println("Enter length of the rectangle: ");
@@ -14,4 +19,3 @@ System.out.println("Enter breadth of the rectangle: ");
 
 	}
 }
- 
